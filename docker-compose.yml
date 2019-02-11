@@ -1,0 +1,6 @@
+version: '3'
+services:
+  elasticsearch-ltr:
+    image: combination/elasticsearch-ltr:6.5.2
+    build:
+      context: .
